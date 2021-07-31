@@ -899,7 +899,7 @@ input[type=text], .project_description, input[type=url] {
 
 /* Set a style for all buttons */
 .project_submit {
-  background-color: #4CAF50;
+  background-color: #c9302c;
   color: white;
   padding: 14px 20px;
   margin: 5px 26px;
