@@ -407,9 +407,18 @@ body {
   margin-left: 1%;
   margin-right: 1%
 }
+.g11 {
+  display: block;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%
+}
 
 /* 1 column grid */
 .g1, .g2, .g3 {
+  width: 98.0%
+}
+.g11 {
   width: 98.0%
 }
 
@@ -446,6 +455,15 @@ body {
 }
 
 .clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+
+
+}
+.clearfix1:after {
   content: ".";
   visibility: hidden;
   display: block;
@@ -1103,9 +1121,18 @@ Change widths as necessary
     /* display: inline; */
     float: left;
   }
+  .g11
+   {
+    /* display: inline; */
+    float: left;
+  }
 
   /* 2 COLUMN GRID */
   .g1 {
+    width: 48.0%
+  }
+  .g11
+   {
     width: 48.0%
   }
 
@@ -1189,6 +1216,10 @@ Change widths as necessary
 
   /* 3 COLUMN GRID */
   .g1 {
+    width: 31.333%
+  }
+  .g11 {
+    
     width: 31.333%
   }
 
